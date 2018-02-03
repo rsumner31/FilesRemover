@@ -1,4 +1,4 @@
-﻿namespace FilesRemover
+namespace FilesRemover
 {
     partial class FilesRemoverForm
     {

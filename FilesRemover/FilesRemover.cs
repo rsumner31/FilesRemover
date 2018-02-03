@@ -1,4 +1,4 @@
-﻿using CodeProject;
+using CodeProject;
 using System;
 using System.Collections.Generic;
 using System.IO;
