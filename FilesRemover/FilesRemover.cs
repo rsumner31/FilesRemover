@@ -5,11 +5,11 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace FilesRemover
+espace FilesRemover
 {
     internal class FilesRemover
     {
-        private FilesRemoverModel filesRemoverModel;
+<<<        private FilesRemoverModel filesRemoverModel;
 
         private IEnumerable<FileData> allFiles;
 
@@ -211,5 +211,26 @@ namespace FilesRemover
                 logger.Log(path + "\n" + ex.Message);
             }
         }
+>>>>>>>+HEAD
+ FilesRemoverForm form;
+
+        public FilesRemover(FilesRemoverForm form)
+        {
+            this.form = form;
+        }
+
+        //private void ChangeEnableControls(bool value)
+        //{
+        //    form.startButton.Enabled = value;
+        //    deleteCopyFilesCheckBox.Enabled = value;
+        //    deleteDirectoriesCheckBox.Enabled = value;
+        //    numberOfWeeks.Enabled = value;
+        //    sourcePathTextBox.Enabled = value;
+        //    destinationPathTextBox.Enabled = value;
+        //    changePaddingButton.Enabled = value;
+        //    paddingValue.Enabled = value;
+        //    overrideFilesCheckBox.Enabled = value;
+        //}
+>>>>>>> dbb3e01... Dodaj pliki projektów.
     }
 }
